@@ -175,7 +175,7 @@ $("#fsdiscord").css({
 
 
 //Custom Crosshair
-GM_addStyle ('* body {cursor: url(https://imgur.com/Gh3PUe9.png)16 16, auto;}');
+GM_addStyle ('* body {cursor: url(https://i.imgur.com/Q7k9xqv.gif)16 16, auto;}');
 
 $("#main-content").append('<div id="version"><p>Version: v4<br>Entra al canal de nuestro discord ()</p><div>');
 $("#version").css({
