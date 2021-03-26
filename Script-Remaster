@@ -22,57 +22,10 @@ function addStyleSheet(style){
 var team = document.getElementById("party-header").innerHTML = "¡Grupo De Los Ultra Gods!";
 var leader = document.createElement("p");
 //------------------------------
-$(".server-table > .server-table-name > span").text(" ");
-$(".server-table > .server-table-players > span").text(" ");
-$(".server-table > .server-table-mode > span").text(" ");
-//------------------------------
-//-----------------------------
-$(".main-panel-wrapper").append("<i class=\"fas fa-user\"></i>");
 $(".main-bottom-links").remove()
 //------------------------------
 //        Texturas
 //------------------------------
-
-
-addStyleSheet('@import url(https://fonts.googleapis.com/css?family=Karla);');
-
-function addStyleSheet(style){
-  var getHead = document.getElementsByTagName("HEAD")[0];
-  var cssNode = window.document.createElement( 'style' );
-  var elementStyle= getHead.appendChild(cssNode);
-  elementStyle.innerHTML = style;
-  return elementStyle;
-}
-
-var fillTextz = CanvasRenderingContext2D.prototype.fillText;
-CanvasRenderingContext2D.prototype.fillText = function(){
-    var argumentz = arguments;
-    if(this.canvas.id == 'leaderboard-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    if(this.canvas.id == 'minimap-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    if(this.canvas.id == 'party-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    fillTextz.apply(this, arguments);
-};
-
-var fillTextz = CanvasRenderingContext2D.prototype.fillText;
-CanvasRenderingContext2D.prototype.fillText = function(){
-    var argumentz = arguments;
-    if(this.canvas.id == 'leaderboard-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    if(this.canvas.id == 'minimap-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    if(this.canvas.id == 'party-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    fillTextz.apply(this, arguments);
-};
 
 ///////////////
 // Cosmetics //
@@ -132,12 +85,10 @@ GM_addStyle('tbody#servers-body-eu::-webkit-scrollbar-thumb, tbody#servers-body-
 /////////////////
 
 $(".policyLinks").remove()
-$(".current-status").remove();
 $( "#btn-trello" ).remove();
 $( "#btn-reddit" ).remove();
 $( "#btn-discord" ).remove();
 $(".main-bottom-links").remove();
-$(".current-status").remove();
 $('#server-tab-eu').text('Europa :v');
 $("#server-tab-eu").css({
     "color":"green"
