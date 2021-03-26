@@ -16,6 +16,8 @@ function addStyleSheet(style){
   return elementStyle;
 }
 
+$(".main-bottom-left").append('<a id="fsdiscord" href="https://discord.com/invite/fyRBPGc" target="_blank">Discord</a>');
+
 
 //-----------------------------
 //         Grupo del team
