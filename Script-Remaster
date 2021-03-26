@@ -88,6 +88,7 @@ GM_addStyle('tbody#servers-body-eu::-webkit-scrollbar-thumb, tbody#servers-body-
 // Other Stuff //
 /////////////////
 
+$(".policyLinks").remove()
 $(".current-status").remove();
 $( "#btn-trello" ).remove();
 $( "#btn-reddit" ).remove();
