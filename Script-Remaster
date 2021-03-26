@@ -157,8 +157,8 @@ $('#btn-play').text('Mr Spawn');
 $('#btn-servers').text('Servidores');
 $('#btn-options').text('Configuracion');
 $('#profile-clan-membership').text('F̶S̶⋑ Frozen Sorrows');
-$(".main-bottom-left").append('<a id="fsyoutube" href="https://discord.com/invite/fyRBPGc" target="_blank">Discord</a>');
 $(".main-bottom-left").append('<a id="fsdiscord" href="https://www.youtube.com/channel/UCZ-bBLSepocrBubc2ERP5PQ" target="_blank">Youtube</a>');
+$(".main-bottom-left").append('<a id="fsyoutube" href="https://discord.com/invite/fyRBPGc" target="_blank">Discord</a>');
 $("#fsdiscord").css({
     "border-style": "solid",
     "border-width": "1px",
